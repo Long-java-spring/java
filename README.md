@@ -1,29 +1,36 @@
 # Java basic
-[1. First Java Program]
-[2. Variables in Java]
-    [1) Static variables](#static-variables)
-    [2) Instance variables]
-    [3) Local variables]
-[3. Java Operators]
-    [1) Basic Arithmetic Operators]
-    [2) Assignment Operators]
-    [3) Auto-increment and Auto-decrement Operators]
-    [4) Logical Operators]
-    [5) Comparison (relational) operators]
-    [6) Bitwise Operators]
-    [7) Ternary Operator]
-[4. If-else in Java]
-    [1) if statement]
-    [2) nested if statement]
-    [3) if-else statement]
-    [4) if-else-if statement]
-[5. Switch-Case in Java]
-[6. Java For loop]
-    [1) For loop]
-    [2) While loop]
-    [3) Do-while loop]
-========================
-<a name="static-variables"></a>
+[1. First Java Program](#firstJavaProgram)
+
+[2. Variables in Java](#variablesInJava)
+    [1) Static variables](#staticVariables)
+    [2) Instance variables](#instanceVariables)
+    [3) Local variables](#localVariables)
+
+[3. Java Operators](#javaOperators)
+    [1) Basic Arithmetic Operators](#basicArithemticOperators)
+    [2) Assignment Operators](#asignmentOperators)
+    [3) Auto-increment and Auto-decrement Operators](#autoIncrementAndAutoDecrementOperators)
+    [4) Logical Operators](#logicalOperators)
+    [5) Comparison (relational) operators](#comparison)
+    [6) Bitwise Operators](#bitwiseOperators)
+    [7) Ternary Operator](#ternaryOperator)
+
+[4. If-else in Java](#ifElseInJava)
+    [1) if statement](#ifStatement)
+    [2) nested if statement](#nestedIfStatement)
+    [3) if-else statement](#ifElseStatement)
+    [4) if-else-if statement](#ifElseIfStatement)
+
+[5. Switch-Case in Java](#switchCaseInJava)
+
+[6. Java For loop](#javaForLoop)
+    [1) For loop](#forLoop)
+    [2) While loop](#whileLoop)
+    [3) Do-while loop](#doWhileLoop)
+
+===============================================================
+
+<a name="staticVariables"></a>
 ###1) Static variables
 The `static` keyword in Java is mainly used for memory management. We can apply static keyword to variables, methods, blocks, nested classes. The static keyword belongs to the class, not to the instance of the class.
 ####In java, Static can be:
