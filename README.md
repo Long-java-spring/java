@@ -2,50 +2,50 @@
 [1. First Java Program](#firstJavaProgram)
 
 [2. Variables in Java](#variablesInJava)
-    [1) Static variables](#staticVariables)
-    [2) Instance variables](#instanceVariables)
-    [3) Local variables](#localVariables)
+- [1) Static variables](#staticVariables)
+- [2) Instance variables](#instanceVariables)
+- [3) Local variables](#localVariables)
 
 [3. Java Operators](#javaOperators)
-    [1) Basic Arithmetic Operators](#basicArithemticOperators)
-    [2) Assignment Operators](#asignmentOperators)
-    [3) Auto-increment and Auto-decrement Operators](#autoIncrementAndAutoDecrementOperators)
-    [4) Logical Operators](#logicalOperators)
-    [5) Comparison (relational) operators](#comparison)
-    [6) Bitwise Operators](#bitwiseOperators)
-    [7) Ternary Operator](#ternaryOperator)
+- [1) Basic Arithmetic Operators](#basicArithemticOperators)
+- [2) Assignment Operators](#asignmentOperators)
+- [3) Auto-increment and Auto-decrement Operators](#autoIncrementAndAutoDecrementOperators)
+- [4) Logical Operators](#logicalOperators)
+- [5) Comparison (relational) operators](#comparison)
+- [6) Bitwise Operators](#bitwiseOperators)
+- [7) Ternary Operator](#ternaryOperator)
 
 [4. If-else in Java](#ifElseInJava)
-    [1) if statement](#ifStatement)
-    [2) nested if statement](#nestedIfStatement)
-    [3) if-else statement](#ifElseStatement)
-    [4) if-else-if statement](#ifElseIfStatement)
+- [1) if statement](#ifStatement)
+- [2) nested if statement](#nestedIfStatement)
+- [3) if-else statement](#ifElseStatement)
+- [4) if-else-if statement](#ifElseIfStatement)
 
 [5. Switch-Case in Java](#switchCaseInJava)
 
 [6. Java For loop](#javaForLoop)
-    [1) For loop](#forLoop)
-    [2) While loop](#whileLoop)
-    [3) Do-while loop](#doWhileLoop)
+- [1) For loop](#forLoop)
+- [2) While loop](#whileLoop)
+- [3) Do-while loop](#doWhileLoop)
 
 ===============================================================
 
 <a name="staticVariables"></a>
-###1) Static variables
+### 1) Static variables
 The `static` keyword in Java is mainly used for memory management. We can apply static keyword to variables, methods, blocks, nested classes. The static keyword belongs to the class, not to the instance of the class.
-####In java, Static can be:
-#####1. Static variable
+#### In java, Static can be:
+##### 1. Static variable
 When you declare a variable as `static`, that variable is called a `static variable`, or a `static variable`
-#####2. Static method
+##### 2. Static method
 When you declare a method as `static`, the method is called a `static method`
-#####3. Static block
+##### 3. Static block
 `Static block` is used for the purpose of initializing `static variables`. The block will be executed when the class containing it is loaded into memory
 There can be many arbitrary blocks in a class. These blocks will run together, and run before the main program of that class.
-####1. Static variable
+#### 1. Static variable
 The `static variable` can be used to reference properties that are common to all objects
 The `static variable` takes memory only once in the Class Area at the time of that class load.
 
-#####Problems not using `static variables`?
+##### Problems not using `static variables`?
 ```
 public class Counter {
     int count = 0; // will get the memory when the instance is created
@@ -68,7 +68,7 @@ Result:
 1
 1
 ```
-#####Counting program using `static variable` in java
+##### Counting program using `static variable` in java
 As you have seen above, static variable will take memory only once, if any object changes the value of static variable, it will still remember its value.
 ```
 public class Counter {
@@ -93,7 +93,7 @@ Result:
 3
 ```
 
-####2. Static method in java
+#### 2. Static method in java
 A method declared with the `static` keyword is called static method
     1. A `static method` belongs to the class, not an object of the class
     2. A `static method` calls without creating an instance of a class
@@ -148,11 +148,11 @@ Limitations of `static methods`:
      ```
         Compile Time Error
      ```
- ####3. Static block in Java
+ #### 3. Static block in Java
 `Static block` is used for the purpose of initializing `static variables`. The block will be executed when the class containing it is loaded into memory
 There can be many arbitrary blocks in a class. 
 These blocks will run together, and run before the main program of that class.
-#####Java static block example
+##### Java static block example
 ```
     public class Example {
         static {
